@@ -11,6 +11,7 @@ int main(int argc, char *argv[]){
         show_usage(argv[0]);
     }
 
+    std::string nomeArquivo = "arquivo.txt";
     std::string command = std::string(argv[1]);
     std::string msg;
 
@@ -18,10 +19,10 @@ int main(int argc, char *argv[]){
     if (command == "add" && argc == 3)
     {
         msg =  std::string(argv[2]);
-        write_text("arquivo.txt",msg);
+        write_text(nomeArquivo,msg);
     }
     else if(command == "list"){
-        read_text("arquivo.txt");
+        read_text(nomeArquivo);
     }
 
     return 0;
