@@ -5,16 +5,23 @@
 #include <ctime>
 
 
-std::string format_current_date(const std::string &format);
-std::string get_current_date();
-std::string get_current_time();
+
+
+struct Time{
+    std::string format_current_date(const std::string &format);
+    std::string get_current_date();
+    std::string get_current_time();
+    
+    int data;
+    int hora;
+    int minutos;
+};
 
 
 struct Mensagem {
 
     std::string conteudo;
-    std::string data;
-    std::string hora;
+    Time time;
 
 };
 
