@@ -8,7 +8,8 @@ int main(int argc, char *argv[]){
     App aplicativo("diario.txt");
 
 
-    aplicativo.searchMsg("duas");
+    //aplicativo.searchMsg("duas");
+    aplicativo.run(argc,argv);
     
 
 

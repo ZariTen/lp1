@@ -84,12 +84,16 @@ Mensagem* Diario::searchMsg(const std::string& msgFind){
     Mensagem* msg = new Mensagem;
 
     while (std::getline(arquivoLer,linha)){
+        if(linha[0] != '-') {continue;}
+
+        linha = linha.substr(11);
         if (linha.find(msgFind) != std::string::npos){
             msg->conteudo = linha;
+            return msg;
         }
     }
 
-    return msg;
+    return nullptr; //Nao achou msg;
 }
 
 //Abre arquivo ja escrito
