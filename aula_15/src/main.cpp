@@ -1,17 +1,18 @@
 #include <iostream>
+#include "cliente.hpp"
+#include "agencia.hpp"
 #include "conta.hpp"
 
+
+
 int main(int argc, char *argv[]){
-    Conta contaum;
-    Conta contadois;
+    Agencia agbr;
+    Cliente c1("Jose","000.000.000");
+    Cliente c2("Joao","000.111.000");
+    Conta contaum(c1,agbr);
+    Conta contadois(c2,agbr);
 
-
-    contaum.saldo = 100;
-    contadois.saldo = 10;
-
-    contaum.transferir(30,contadois);
-    std::cout << contaum.saldo << std::endl;
-    std::cout << contadois.saldo << std::endl;
+    std::cout << contaum.quantidadeContas << std::endl;
 
 
     return 0;

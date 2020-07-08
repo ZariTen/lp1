@@ -8,15 +8,15 @@
 class Conta{
     public:
         static int quantidadeContas;
-        cliente contaCliente;
-        agencia contaAgencia;
+        Cliente contaCliente;
+        Agencia contaAgencia;
 
         std::string numero;
         std::string titular; 
 
         int saldo;
 
-        Conta(cliente c,agencia a);
+        Conta(Cliente c,Agencia a);
         void sacar(int dinheiroSacado);
         void depositar(int dinheiroDepositado);
         void transferir(int dinheiroTransferido, Conta& c);

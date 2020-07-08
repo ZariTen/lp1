@@ -3,7 +3,7 @@
 
 #include <string>
 
-class agencia{
+class Agencia{
     public:
         std::string nome;        
         std::string numeroDaAgencia;

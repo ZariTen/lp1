@@ -2,7 +2,7 @@
 
 int Conta::quantidadeContas;
 
-Conta::Conta(cliente c, agencia a) : contaCliente(c),contaAgencia(a){
+Conta::Conta(Cliente c, Agencia a) : contaCliente(c),contaAgencia(a){
     quantidadeContas+=1;
 }
 
