@@ -1,0 +1,18 @@
+COD,PRODUTO,UNIDADE DE MEDIDA,PREÇO,QUANTIDADE
+1,Feijão,Pacote,"R$ 6.2",90
+2,Arroz,Pacote,"R$ 3.4",879
+3,Fubá,Pacote,"R$ 2.9",500
+4,Milho Verde,Lata,"R$ 1.3",100
+5,Ervilha,Lata,"R$ 1.3",80
+6,Farinha,Pacote,"R$ 2.8",50
+7,Tomate,Quilo,"R$ 2.25",80
+8,Laranja,Quilo,"R$ 3.5",830
+9,Limão,Quilo,"R$ 3.5",40
+10,Macaxeira,Quilo,"R$ 4.5",100
+11,Pimentão,Quilo,"R$ 3.3",30
+12,Queijo,Quilo,"R$ 28",80
+13,Presunto,Quilo,"R$ 14",80
+14,Carne,Quilo,"R$ 24.9",50
+15,Salsicha,Quilo,"R$ 8.49",150
+16,Peixe,Quilo,"R$ 12.4",29
+17,Margarina,Lata,"R$ 2.99",100

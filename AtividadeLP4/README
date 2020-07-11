@@ -1,0 +1,6 @@
+# Atividade LP1
+
+
+# Como compilar:
+
+g++ -I include src/*.cpp -o mercado
